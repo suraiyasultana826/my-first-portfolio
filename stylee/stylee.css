@@ -1,0 +1,52 @@
+header {
+    background-image: url('../stylee/images/banner/banner1.png');
+    width: 1340px;
+    height: 808px;
+    flex-shrink: 0;
+    margin: 0;
+    padding-top: 0;
+}
+
+.head {
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.font {
+    color: var(--dark-02, #444343);
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.heading {
+    padding-right: 150px;
+    padding-top: 90px;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    margin-left: 1040px;
+    margin-top: 25px;
+}

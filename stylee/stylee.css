@@ -1,5 +1,6 @@
 header {
     background-image: url('../stylee/images/banner/banner1.png');
+
     width: 1340px;
     height: 808px;
     flex-shrink: 0;
@@ -50,3 +51,92 @@ header {
     margin-left: 1040px;
     margin-top: 25px;
 }
+
+.main-head {
+    display: flex;
+    width: 288px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.second-part {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+
+#middle {
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.againheading {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.anotherclass {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image {
+    padding-left: 10px;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.gradient {
+    background-image: url('../stylee/images/watch.png');
+    background-image: #F15B22, #F15B22;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(orange);
+    background-size: 75%;
+    margin-left: 250px;
+    margin-bottom: 200px;
+    justify-content: center;
+    width: 1140px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 8px;
+
+
+}
+
+.anotherbtn {
+    padding: 10px;
+    text-align: center;
+    color: #F15B22;
+    background-color: #FFF;
+
+    margin-left: 104px;
+    margin-top: 0px;
+    border-radius: 5px;
+    width: 160px;
+height: 64px;
+flex-shrink: 0;
+}
+
+.design {
+    color: #FFF;
+    padding-bottom: 50%%;
+    padding: 50px;
+}
+.agnimg{border-radius: 75%;
+    background: rgba(241, 91, 34, 0.20);
+    }

@@ -1,11 +1,14 @@
 header {
     background-image: url('../stylee/images/banner/banner1.png');
 
-    width: 1340px;
+    width: 1360px;
     height: 808px;
     flex-shrink: 0;
     margin: 0;
     padding-top: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh
 }
 
 .head {
@@ -85,6 +88,8 @@ header {
 .anotherclass {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+
 }
 
 .image {
@@ -102,18 +107,19 @@ body {
 }
 
 .gradient {
-    background-image: url('../stylee/images/watch.png');
+    background-image: url('../stylee/images/gradient1.png '), url('../stylee/images/watch.png');
     background-image: #F15B22, #F15B22;
     background-repeat: no-repeat;
     background-image: linear-gradient(orange);
     background-size: 75%;
     margin-left: 250px;
-    margin-bottom: 200px;
+
     justify-content: center;
     width: 1140px;
-height: 300px;
-flex-shrink: 0;
-border-radius: 8px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    position: relative;
 
 
 }
@@ -128,15 +134,45 @@ border-radius: 8px;
     margin-top: 0px;
     border-radius: 5px;
     width: 160px;
-height: 64px;
-flex-shrink: 0;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: -400px;
 }
 
 .design {
     color: #FFF;
     padding-bottom: 50%%;
-    padding: 50px;
+    margin: 50px;
+    padding-top: 50px;
+
 }
-.agnimg{border-radius: 75%;
+
+.agnimg {
+    border-radius: 75%;
     background: rgba(241, 91, 34, 0.20);
-    }
+}
+
+.contact-info {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+
+}
+
+.future {
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.last {
+    display: block;
+}
+.copy{
+    background-color: black;
+    text-align: center;
+}
